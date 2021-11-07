@@ -1,0 +1,11 @@
+<footer class="footer mt-auto py-3 navbar-dark bg-light">
+  <div class="container">
+    <span class="text-muted">
+      <span *ngIf="appShortName != ''">{{appShortName}} </span>
+      <span *ngIf="appDescription !=''"> - {{appDescription}}</span>
+      <b *ngIf="appVersion != ''">
+        <small> v {{appVersion}}</small>
+      </b>
+    </span>
+  </div>
+</footer>

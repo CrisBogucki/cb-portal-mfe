@@ -1,0 +1,17 @@
+
+
+    <div>
+      <div class="app" routerLink='/'>
+        <div>Homepage</div>
+        <div>Home page of the g-frame component</div>
+        <div>v0.0.1</div>
+      </div>
+    </div>
+
+    <div>
+      <div *ngFor="let app of microApps" class="app" routerLink='{{app.routePath}}' routerLinkActive="active">
+        <div>{{ app.name }}</div>
+        <div>{{ app.description }}</div>
+        <div>v{{ app.version }}</div>
+      </div>
+    </div>
