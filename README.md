@@ -1,6 +1,6 @@
 # cb-portal-mfe
 
-![alt text](https://raw.githubusercontent.com/CrisBogucki/cb-portal-mfe/master/assets/demo1.png)
+![alt text](https://raw.githubusercontent.com/CrisBogucki/cb-portal-mfe/master/assets/demo2.png)
 
 ### Create portal app
 - `ng new cb-portal-mfe --create-application=false`
