@@ -17,4 +17,6 @@ live demo : https://cb-portal.netlify.app/
 
 ### Create sample module by portal
 - `ng g application c-sample-app --routing --style=scss`
+- `ng g m sample-app --project=c-sample-app`
+- `ng config cli.packageManager yarn`
 - `ng add @angular-architects/module-federation --project=c-sample-app --port=4201`
