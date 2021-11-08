@@ -15,6 +15,17 @@ live demo : https://cb-portal.netlify.app/
 - `ng add @angular-architects/module-federation --project=c-portal --port=4200`
 - `yarn install`
 
+- add to package json 
+
+  ```json
+  ...
+  "resolutions": {
+    "webpack": "^5.4.0",
+    "license-webpack-plugin": "2.3.17"
+  }
+  ...
+  ```
+
 ### Create sample module by portal
 - `ng g application c-sample-app --routing --style=scss`
 - `ng g m sample-app --project=c-sample-app`
