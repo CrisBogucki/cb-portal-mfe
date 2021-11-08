@@ -16,5 +16,5 @@ live demo : https://cb-portal.netlify.app/
 - `yarn install`
 
 ### Create sample module by portal
-- `ng g application c-sample-app-name --routing --style=scss`
-- `ng add @angular-architects/module-federation --project=c-sample-app-name --port=4201`
+- `ng g application c-sample-app --routing --style=scss`
+- `ng add @angular-architects/module-federation --project=c-sample-app --port=4201`

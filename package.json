@@ -4,7 +4,9 @@
   "scripts": {
     "ng": "ng",
     "start-portal": "ng serve c-portal --host=0.0.0.0 --port=4200 --o",
+    "start-sample-app": "ng serve c-sample-app --host=0.0.0.0 --port=4201 --o",
     "build-portal": "ng build c-portal --configuration production",
+    "build-sample-app": "ng build c-sample-app --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "run:all": "node node_modules/@angular-architects/module-federation/src/server/mf-dev-server.js"
