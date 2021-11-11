@@ -1,11 +1,16 @@
-# cb-portal-mfe
-
-![alt text](https://raw.githubusercontent.com/CrisBogucki/cb-portal-mfe/master/assets/demo2.png)
+# Potral micro frontend applications
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a090ec02-0dcd-460b-b96d-6b5d92979de8/deploy-status)](https://app.netlify.com/sites/cb-portal/deploys)
 
 
 live demo : https://cb-portal.netlify.app/
+
+
+Potral micro front-end applications - presents an example of 
+using federation module and hosting business part of the 
+application in the main application in an example called portal
+
+![alt text](https://raw.githubusercontent.com/CrisBogucki/cb-portal-mfe/master/assets/demo2.png)
 
 ### Create portal app
 - `ng new cb-portal-mfe --create-application=false`
